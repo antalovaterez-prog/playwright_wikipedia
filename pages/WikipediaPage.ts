@@ -13,7 +13,7 @@ export class WikipediaPage {
     
 
     async otvor () {
-        await this.page.goto('https://sk.wikipedia.org/');
+        await this.page.goto('/');
     }
 
     async vyhladaj(text: string) {
